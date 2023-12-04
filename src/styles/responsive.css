@@ -1,0 +1,55 @@
+@media screen and (max-width: 1024px) {
+  .container-left h1 {
+    font-size: 3vw;
+  }
+
+  .img {
+    width: 37vw;
+  }
+
+  .card {
+    width: 85%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .main {
+    height: 100%;
+    flex-direction: column;
+    gap: 2rem;
+
+    padding: 4%;
+  }
+
+  .container-left,
+  .container-right {
+    width: 100%;
+    height: 100%;
+  }
+
+  .container-left h1 {
+    font-size: 4vw;
+  }
+
+  .img {
+    width: 55vw;
+  }
+
+  .card {
+    width: 60%;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .container-left h1 {
+    font-size: 6vw;
+  }
+
+  .img {
+    width: 90%;
+  }
+
+  .card {
+    width: 90%;
+  }
+}
